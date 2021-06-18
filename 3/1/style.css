@@ -1,0 +1,26 @@
+
+.wrap {
+    background: aliceblue;
+}
+.one {
+    background: aqua;
+    width: 100%;
+    height: 250px;
+}
+.group {
+    width: 100%;
+    display: flex;
+    background: ivory;
+
+}
+
+.two {
+    background: bisque ;
+    width: 80%;
+    height: 900px;
+}
+.three {
+    background: gray;
+    width: 20%;
+    height: 900px;
+}

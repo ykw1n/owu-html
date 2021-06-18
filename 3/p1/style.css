@@ -1,0 +1,65 @@
+.wrapper {
+    display: flex;
+    background-color: lightgrey;
+    flex-direction: column;
+}
+.nav {
+    display: flex;
+    flex: 1 100%;
+    flex-flow: row wrap;
+    background-color: lightgrey;
+}
+.logo{
+    order: 1;
+    flex: 1 0;
+    height: 50px;
+    background-color: #d3eff2;
+    margin: 1px;
+}
+.prime-bav {
+    order: 2;
+    flex: 6 0;
+    height: 50px;
+    background-color: #d3eff2;
+    margin: 1px;
+}
+.profile {
+    order: 3;
+    height: 50px;
+    background-color: #d3eff2;
+}
+.alert {
+    order: 4;
+    height: 200px;
+    background-color: #a4e0e4;
+}
+.content {
+    display: flex;
+    flex: 1 0;
+    justify-content: space-between;
+}
+.column-left {
+    flex: 2;
+    order: 5;
+}
+.column-right {
+    flex: 2;
+    order: 6;
+}
+.wrap {
+    display: flex;
+    flex: 2 0;
+}
+.small {
+    flex: 2;
+    background-color: #d3eff2;
+    height: 100px;
+    margin: 1px;
+
+}
+.large {
+    margin: 1px;
+    flex: 1;
+    background: #d3eff2;
+    height: 202px;
+}
